@@ -1,12 +1,14 @@
 .main-profile {
   font-family: "Ubuntu", sans-serif;
 }
-.main-profile .profile-section {
-  height: 100vh;
-}
 @media (min-width: 576px) {
   .main-profile .profile-section {
     height: unset;
+  }
+}
+@media (min-width: 992px) {
+  .main-profile .profile-section {
+    height: 100vh;
   }
 }
 .main-profile .profile-section .navbar .bg {
