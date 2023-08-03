@@ -161,7 +161,7 @@
   font-size: 1.2rem;
 }
 .main-profile .work-section .work-container .work-wrapper {
-  overflow: auto;
+  overflow: inherit;
 }
 .main-profile .work-section .work-container .work-wrapper .work-bg img {
   width: 100%;
