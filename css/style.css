@@ -160,15 +160,13 @@
   font-weight: 500;
   font-size: 1.2rem;
 }
-.main-profile .work-section .work-wrapper {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 50px;
+.main-profile .work-section .work-container .work-wrapper {
+  overflow: auto;
 }
-.main-profile .work-section .work-wrapper .work-bg img {
+.main-profile .work-section .work-container .work-wrapper .work-bg img {
   width: 100%;
 }
-.main-profile .work-section .work-wrapper .work-bg .button {
+.main-profile .work-section .work-container .work-wrapper .work-bg .button {
   transition: 0.5s ease;
   opacity: 0;
   position: absolute;
@@ -178,18 +176,25 @@
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-.main-profile .work-section .work-wrapper .work-bg .button .text {
+.main-profile .work-section .work-container .work-wrapper .work-bg .button .text {
   background-color: white;
   color: #00069a;
   border-radius: 18px;
   font-size: 16px;
-  padding: 8px 32px;
 }
-.main-profile .work-section .work-wrapper .work-bg:hover img {
+.main-profile .work-section .work-container .work-wrapper .work-bg .button label {
+  font-size: 1rem;
+}
+@media (min-width: 992px) {
+  .main-profile .work-section .work-container .work-wrapper .work-bg .button label {
+    font-size: 1.2rem;
+  }
+}
+.main-profile .work-section .work-container .work-wrapper .work-bg:hover img {
   filter: brightness(0.5);
   box-shadow: 0px 0px 0px #00069a;
 }
-.main-profile .work-section .work-wrapper .work-bg:hover .button {
+.main-profile .work-section .work-container .work-wrapper .work-bg:hover .button {
   opacity: 1;
 }
 .main-profile .work-section .contact-btn button {
@@ -299,4 +304,19 @@
   100% {
     transform: translateX(25%);
   }
+}
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+  background: #6d6d6d;
 }/*# sourceMappingURL=style.css.map */
