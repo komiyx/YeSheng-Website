@@ -10,4 +10,4 @@ YeSheng-Website is a personal portfolio website showcasing the work, projects, a
 
 ## Preview
 
-Visit the [YeSheng-Website](https://komiyx.github.io/YeSheng-Website/) to see the live version of the website.
+Visit the [YeSheng-Website](https://komiyx.github.io/YeSheng-Website/)https://dashing-cassata-01ed95.netlify.app/ to see the live version of the website.
